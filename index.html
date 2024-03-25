@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isabelle Anis">
+    <meta name="Keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="Description" content="Isabelle Anis' Personal Website">
+    <title>Isabelle Anis</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Isabelle Anis</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src="../static/headshot.jpg" alt="Isabelle Anis profile image" width="350px">
+        <div class="classA">
+            <!--<p id="Intro">Hello! My name is Isabelle Anis and I am a sophomore at Carnegie Mellon University. 
+                Currently, I am majoring in violin performance, but I am applying to the BXA double major program with the
+                hopes that I can become a BXA student in violin and Information Systems. I've always had an interest in business, 
+                computer science and violin, hence making this degree the perfect one for me. Look through my website to learn 
+                more about me and my interests!
+            </p> -->
+            <span id="shortIntro">Hello! My name is Isabelle Anis and I am a sophomore at Carnegie Mellon University.</span>
+            <span id="readMore">read more... </span>
+            <span id="longIntro">Currently, I am majoring in violin performance, but I am applying to the BXA double major program with the
+                hopes that I can become a BXA student in violin and Information Systems. I've always had an interest in business, 
+                computer science and violin, hence making this degree the perfect one for me. Look through my website to learn 
+                more about me and my interests!</span>
+            <span id="readLess">read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Isabelle Anis &copy;</p>
+    </footer>
+</body>
+</html>

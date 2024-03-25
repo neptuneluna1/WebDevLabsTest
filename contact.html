@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isabelle Anis">
+    <meta name="Keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="Description" content="Isabelle Anis' Personal Website">
+    <title>Isabelle Anis</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Isabelle Anis</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html" class="active">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="UserName">Your Name (required):</label>
+            <input type="text" name="UserName" id="UserName" required/>
+            <label for="UserEmail">Your Email (required):</label>
+            <input type="email" name="UserEmail" id="UserEmail" required>
+            <label for="UserText">Your text (required):</label>
+            <textarea name="UserText" id="UserText" cold="30" rows="10" required></textarea>
+            <input type="submit" value="Send" onclick="validate()"/>
+        </form>
+        <p id="ValidateMsg"></p>
+        <table>
+            <tr><th>Contact Method</th><th>Description</th></tr>
+            <tr><td>Email</td><td>ianis@andrew.cmu.edu</td></tr>
+            <tr><td>Phone</td><td>860-754-4997</td></tr>
+            <tr><td>LinkedIn</td><td>linkedin.com/in/isabelle-anis</td></tr>
+        </table>
+    </div>
+    <footer>
+        <p id="copyYear">Isabelle Anis &copy;</p>
+    </footer>
+</body>
+</html>
